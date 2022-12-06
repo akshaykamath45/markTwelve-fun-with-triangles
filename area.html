@@ -8,19 +8,34 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <nav>
-        <a href="istriangle.html">Is Triangle?</a>
-        <a href="quiz.html">Triangle Quiz</a>
-        <a href="hypotenuse.html">Calculate Hypotenuse</a>
-        <a href="area.html">Calculate Area</a>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun with Triangles</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/istriangle.html">Is Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link"  href="/quiz.html">Triangle Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/hypotenuse.html">Calculate Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Calculate Area</a>
+            </li>
+        </ul>
     </nav>
+    <section class="section">
+        <div class="container container-center">
     <h1>Calculating Area</h1>
-    <label >Enter Base</label>
-    <input type="number" class="side-input"/>
-    <label >Enter Height</label>
-    <input type="number" class="side-input"/>
-    <button id="area-button">Calculating Area</button>
+    <label >Enter Base</label><br><br>
+    <input type="number" class="side-input"/><br><br>
+    <label >Enter Height</label><br><br>
+    <input type="number" class="side-input"/><br><br>
+    <button id="area-button">Calculating Area</button><br><br>
     <div id="output"></div>
+</div>
+</section>
     <script src="/area.js"></script>
 </body>
 </html>
