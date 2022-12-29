@@ -1,4 +1,4 @@
-# FUn with Triangles
+# Fun with Triangles
 
 <i>Hey everyone,This is Akshay Kamath,Computer Engineering Student at DJ Sanghvi College of Engineering,Mumbai.</i>
 
